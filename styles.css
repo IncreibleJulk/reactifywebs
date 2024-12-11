@@ -1,3 +1,79 @@
+/* styles.css */
 body {
-    background-color: blue;
+    font-family: 'Arial', sans-serif;
+    margin: 0;
+    padding: 0;
+    background: #fff5e1;
+    color: #333;
 }
+
+header {
+    background: linear-gradient(135deg, #ff6600, #ffa31a);
+    color: white;
+    text-align: center;
+    padding: 2rem 1rem;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+header h1 {
+    font-size: 3rem;
+    margin: 0;
+    animation: fadeIn 1.5s ease-in;
+}
+
+header p {
+    font-size: 1.2rem;
+    margin-top: 0.5rem;
+}
+
+.cards {
+    display: flex;
+    justify-content: space-around;
+    margin: 2rem 1rem;
+    flex-wrap: wrap;
+}
+
+.card {
+    background: white;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    margin: 1rem;
+    padding: 1.5rem;
+    max-width: 300px;
+    text-align: center;
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.card:hover {
+    transform: translateY(-10px);
+    box-shadow: 0 6px 12px rgba(0, 0, 0, 0.15);
+}
+
+.card h2 {
+    color: #ff6600;
+    margin-bottom: 1rem;
+}
+
+.card button {
+    background: #ff6600;
+    border: none;
+    border-radius: 4px;
+    color: white;
+    cursor: pointer;
+    padding: 0.5rem 1rem;
+    font-size: 1rem;
+    transition: background 0.3s ease;
+}
+
+.card button:hover {
+    background: #cc5200;
+}
+
+footer {
+    text-align: center;
+    padding: 1rem;
+    background: #ffe0b3;
+    color: #333;
+    font-size: 0.9rem;
+}
+
