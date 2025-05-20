@@ -1,1 +1,1 @@
-console.log('start reactify web');
+console.log('start reactify web 1.0');
